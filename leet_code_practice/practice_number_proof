@@ -1,0 +1,36 @@
+class Solution:
+    def digitCount(self, num: str) -> bool:
+        if len(num) > 10:
+            return False
+        count_one = 0
+        count_two = 0
+        count_three = 0
+        count_four = 0
+        count_five = 0
+        count_six = 0
+        count_seven = 0
+        count_eight = 0
+        count_nine = 0
+        count_zero = 0
+        for letter in num:
+            if letter == "1":
+                count_one = count_one + 1
+            elif letter == "2":
+                count_two = count_two + 1
+            elif letter == "3":
+                count_three = count_three + 1
+            elif letter == "4":
+                count_four = count_four + 1
+            elif letter == "5":
+                count_five = count_five + 1
+            elif letter == "6":
+                count_six = count_six + 1
+            elif letter == "7":
+                count_seven = count_seven + 1
+            elif letter == "8":
+                count_eight = count_eight + 1
+            elif letter == "9":
+                count_nine = count_nine + 1
+            elif letter == "0":
+                count_zero = count_zero + 1          
+                  
